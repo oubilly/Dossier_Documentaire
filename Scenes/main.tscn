@@ -51,11 +51,11 @@
 [sub_resource type="Environment" id="Environment_6bp64"]
 background_mode = 3
 glow_enabled = true
-glow_intensity = 0.46
+glow_intensity = 0.5
 glow_bloom = 1.0
 adjustment_enabled = true
-adjustment_brightness = 0.7
-adjustment_contrast = 1.25
+adjustment_brightness = 0.77
+adjustment_contrast = 1.5
 
 [sub_resource type="Gradient" id="Gradient_6bp64"]
 colors = PackedColorArray(0, 0, 0, 1, 0.18120003, 0.18120006, 0.18120003, 1)
@@ -670,6 +670,11 @@ shader_parameter/outline2_color = Color(0, 0, 0, 1)
 shader_parameter/speed = 10.0
 shader_parameter/tolerance = 0.95
 
+[sub_resource type="LabelSettings" id="LabelSettings_jut3y"]
+font = ExtResource("5_kry3j")
+font_size = 81
+font_color = Color(0, 0, 0, 1)
+
 [sub_resource type="Animation" id="Animation_1w6v2"]
 length = 0.001
 tracks/0/type = "value"
@@ -895,6 +900,10 @@ shader_parameter/outline2_blockSize = 80.0
 shader_parameter/outline2_color = Color(0, 0, 0, 1)
 shader_parameter/speed = 10.0
 shader_parameter/tolerance = 0.95
+
+[sub_resource type="LabelSettings" id="LabelSettings_v2nl5"]
+font = ExtResource("5_kry3j")
+font_size = 30
 
 [node name="Main" type="Node2D" unique_id=1669617665]
 script = ExtResource("1_jjvhh")
@@ -1201,6 +1210,7 @@ label_settings = SubResource("LabelSettings_6bp64")
 
 [node name="DossierDocArrow1" type="Sprite2D" parent="." unique_id=213219558]
 modulate = Color(0, 0, 0, 1)
+z_index = 5
 position = Vector2(830, 0)
 rotation = -1.5707964
 scale = Vector2(0.112, 0.109)
@@ -1221,6 +1231,7 @@ libraries/ = SubResource("AnimationLibrary_1w6v2")
 
 [node name="DossierDocArrow2_right" type="Sprite2D" parent="." unique_id=333521450]
 modulate = Color(0, 0, 0, 1)
+z_index = 5
 position = Vector2(2830, 0)
 rotation = -1.5707964
 scale = Vector2(0.112, 0.109)
@@ -1240,6 +1251,7 @@ offset_bottom = 1000.00006
 
 [node name="DossierDocArrow2_left" type="Sprite2D" parent="." unique_id=819748962]
 modulate = Color(0, 0, 0, 1)
+z_index = 5
 position = Vector2(2830, 0)
 rotation = -4.712389
 scale = Vector2(0.112, 0.109)
@@ -1361,25 +1373,25 @@ visible = false
 z_index = 4
 use_parent_material = true
 position = Vector2(472, -484)
-scale = Vector2(1.052, 1.052)
+scale = Vector2(0.7, 0.7)
 texture = ExtResource("12_fdnlq")
 
 [node name="Titre3" type="Label" parent="FR/FR3" unique_id=1621072899]
 z_index = 4
-offset_left = -890.6844
-offset_top = -173.0038
-offset_right = -476.6844
-offset_bottom = -30.0038
+offset_left = -750.0
+offset_top = -173.004
+offset_right = -336.0
+offset_bottom = -30.003998
 rotation = -1.0576695
 pivot_offset = Vector2(367, 30)
 text = "SECTION 3"
-label_settings = SubResource("LabelSettings_wsu2k")
+label_settings = SubResource("LabelSettings_jut3y")
 
 [node name="PjcPharmacieJeanCoutuLogoPngTransparent" type="Sprite2D" parent="FR/FR3" unique_id=15460922]
 use_parent_material = true
-position = Vector2(746.1975, 297.52853)
-rotation = -0.7539823
-scale = Vector2(0.23764257, 0.23764257)
+position = Vector2(800, -420)
+rotation = 0.5235988
+scale = Vector2(0.4, 0.4)
 texture = ExtResource("20_cbgmd")
 
 [node name="FR4" type="Sprite2D" parent="FR" unique_id=2081084170]
@@ -1472,6 +1484,7 @@ label_settings = SubResource("LabelSettings_ynf5e")
 
 [node name="DossierDocArrow3_right" type="Sprite2D" parent="." unique_id=1523150902]
 modulate = Color(0, 0, 0, 1)
+z_index = 5
 position = Vector2(4830, 0)
 rotation = -1.5707964
 scale = Vector2(0.112, 0.109)
@@ -1491,6 +1504,7 @@ libraries/ = SubResource("AnimationLibrary_6vcvc")
 
 [node name="DossierDocArrow3_left" type="Sprite2D" parent="." unique_id=1525391838]
 modulate = Color(0, 0, 0, 1)
+z_index = 5
 position = Vector2(4830, 0)
 rotation = 1.5707964
 scale = Vector2(0.112, 0.109)
@@ -1512,6 +1526,7 @@ libraries/ = SubResource("AnimationLibrary_6vcvc")
 
 [node name="DossierDocArrow4_right" type="Sprite2D" parent="." unique_id=557419833]
 modulate = Color(0, 0, 0, 1)
+z_index = 5
 position = Vector2(6830, 0)
 rotation = -1.5707964
 scale = Vector2(0.112, 0.109)
@@ -1531,6 +1546,7 @@ libraries/ = SubResource("AnimationLibrary_536cc")
 
 [node name="DossierDocArrow4_left" type="Sprite2D" parent="." unique_id=987347222]
 modulate = Color(0, 0, 0, 1)
+z_index = 5
 position = Vector2(6830, 0)
 rotation = 1.5707964
 scale = Vector2(0.112, 0.109)
@@ -1552,6 +1568,7 @@ libraries/ = SubResource("AnimationLibrary_536cc")
 
 [node name="DossierDocArrow5_right" type="Sprite2D" parent="." unique_id=133718575]
 modulate = Color(0, 0, 0, 1)
+z_index = 5
 position = Vector2(8830, 0)
 rotation = -1.5707964
 scale = Vector2(0.112, 0.109)
@@ -1571,6 +1588,7 @@ libraries/ = SubResource("AnimationLibrary_8cuat")
 
 [node name="DossierDocArrow5_left" type="Sprite2D" parent="." unique_id=1410275023]
 modulate = Color(0, 0, 0, 1)
+z_index = 5
 position = Vector2(8830, 0)
 rotation = 1.5707964
 scale = Vector2(0.112, 0.109)
@@ -1592,6 +1610,7 @@ libraries/ = SubResource("AnimationLibrary_8cuat")
 
 [node name="DossierDocArrow5_left2" type="Sprite2D" parent="." unique_id=2100861327]
 modulate = Color(0, 0, 0, 1)
+z_index = 5
 position = Vector2(10830, 0)
 rotation = 1.5707964
 scale = Vector2(0.112, 0.109)
@@ -1858,7 +1877,7 @@ offset_top = 291.0
 offset_right = 6325.0
 offset_bottom = 346.0
 pivot_offset = Vector2(367, 30)
-text = "Se fait jugé pour sa
+text = "Se fait jugée pour sa
 culture espagnole"
 label_settings = SubResource("LabelSettings_r33sp")
 horizontal_alignment = 1
@@ -2108,6 +2127,8 @@ material = SubResource("ShaderMaterial_2060n")
 
 [node name="Journal1" type="Node2D" parent="Journal" unique_id=1071684989]
 use_parent_material = true
+position = Vector2(2400, 0)
+scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130095445" type="Sprite2D" parent="Journal/Journal1" unique_id=1052253186]
 use_parent_material = true
@@ -2126,9 +2147,28 @@ use_parent_material = true
 position = Vector2(10029, -119)
 texture = ExtResource("42_dmskm")
 
+[node name="Progrès1" type="Label" parent="Journal/Journal1" unique_id=1430718482]
+z_index = 3
+offset_left = 8672.499
+offset_top = -212.49998
+offset_right = 9095.499
+offset_bottom = 128.50002
+pivot_offset = Vector2(367, 30)
+text = "Travail terminé :
+  - Français : section 1
+
+À faire:
+  - CCQ : entrevue
+  - Français : section 2, 3, 4 ,5 ,6
+  - Histoire : recherche vague migratoire
+  - Schéma de concept"
+label_settings = SubResource("LabelSettings_v2nl5")
+
 [node name="Journal2" type="Node2D" parent="Journal" unique_id=1421559028]
 visible = false
 use_parent_material = true
+position = Vector2(2400, 0)
+scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130101043" type="Sprite2D" parent="Journal/Journal2" unique_id=1657387071]
 use_parent_material = true
@@ -2147,9 +2187,28 @@ position = Vector2(9565, -34)
 scale = Vector2(0.55, 0.55)
 texture = ExtResource("43_xdkp6")
 
+[node name="Progrès1" type="Label" parent="Journal/Journal2" unique_id=889513432]
+z_index = 3
+offset_left = 8672.499
+offset_top = -212.49998
+offset_right = 9095.499
+offset_bottom = 128.50002
+pivot_offset = Vector2(367, 30)
+text = "Travail terminé :
+  - Français : section 2, 3
+
+À faire:
+  - CCQ : entrevue
+  - Français : section 4 ,5 ,6
+  - Histoire : recherche vague migratoire
+  - Schéma de concept"
+label_settings = SubResource("LabelSettings_v2nl5")
+
 [node name="Journal3" type="Node2D" parent="Journal" unique_id=208093467]
 visible = false
 use_parent_material = true
+position = Vector2(2400, 0)
+scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130101931" type="Sprite2D" parent="Journal/Journal3" unique_id=594263477]
 use_parent_material = true
@@ -2168,9 +2227,27 @@ position = Vector2(10496, -20.999992)
 scale = Vector2(0.365, 0.365)
 texture = ExtResource("44_54nrm")
 
+[node name="Progrès1" type="Label" parent="Journal/Journal3" unique_id=2016450685]
+z_index = 3
+offset_left = 8672.499
+offset_top = -168.75
+offset_right = 9095.499
+offset_bottom = 172.25
+pivot_offset = Vector2(367, 30)
+text = "Travail terminé :
+  - Entrevue
+  - Histoire : recherche vague migratoire
+
+À faire:
+  - Français : section 4 ,5 ,6
+  - Schéma de concept"
+label_settings = SubResource("LabelSettings_v2nl5")
+
 [node name="Journal4" type="Node2D" parent="Journal" unique_id=450922935]
 visible = false
 use_parent_material = true
+position = Vector2(2400, 0)
+scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130100343" type="Sprite2D" parent="Journal/Journal4" unique_id=1916513729]
 use_parent_material = true
@@ -2190,9 +2267,26 @@ position = Vector2(10017, -48)
 scale = Vector2(0.815, 0.815)
 texture = ExtResource("45_55jeb")
 
+[node name="Progrès1" type="Label" parent="Journal/Journal4" unique_id=713739809]
+z_index = 3
+offset_left = 8672.499
+offset_top = -168.75
+offset_right = 9095.499
+offset_bottom = 172.25
+pivot_offset = Vector2(367, 30)
+text = "Travail terminé :
+  - Schéma de concept : section 1, 2, 3
+
+À faire:
+  - Français : section 4 ,5 ,6
+  - Schéma de concept : section 4, 5, 6"
+label_settings = SubResource("LabelSettings_v2nl5")
+
 [node name="Journal5" type="Node2D" parent="Journal" unique_id=774944303]
 visible = false
 use_parent_material = true
+position = Vector2(2400, 0)
+scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130100343" type="Sprite2D" parent="Journal/Journal5" unique_id=1933696417]
 use_parent_material = true
@@ -2212,9 +2306,26 @@ position = Vector2(10008, -87)
 scale = Vector2(0.57, 0.57)
 texture = ExtResource("46_gsvbx")
 
+[node name="Progrès1" type="Label" parent="Journal/Journal5" unique_id=1817284236]
+z_index = 3
+offset_left = 8672.499
+offset_top = -127.5
+offset_right = 9095.499
+offset_bottom = 213.5
+pivot_offset = Vector2(367, 30)
+text = "Travail terminé :
+  - Schéma de concept : section 4, 5, 6
+
+À faire:
+  - Français : section 4 ,5 ,6
+"
+label_settings = SubResource("LabelSettings_v2nl5")
+
 [node name="Journal6" type="Node2D" parent="Journal" unique_id=1392756393]
 visible = false
 use_parent_material = true
+position = Vector2(2400, 0)
+scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130101052" type="Sprite2D" parent="Journal/Journal6" unique_id=197509585]
 use_parent_material = true
@@ -2233,6 +2344,20 @@ use_parent_material = true
 position = Vector2(9644.001, -86.99994)
 scale = Vector2(0.445, 0.445)
 texture = ExtResource("47_bv80c")
+
+[node name="Progrès1" type="Label" parent="Journal/Journal6" unique_id=809198846]
+z_index = 3
+offset_left = 8672.499
+offset_top = -127.5
+offset_right = 9229.499
+offset_bottom = 213.5
+pivot_offset = Vector2(367, 30)
+text = "Travail terminé :
+  - Français : section 4 ,5 ,6
+
+À faire:
+  - Version esthétique (fait à la maison le 29 et le 30)"
+label_settings = SubResource("LabelSettings_v2nl5")
 
 [connection signal="value_changed" from="HSlider1" to="HSlider1" method="_on_value_changed"]
 [connection signal="value_changed" from="HSlider2" to="HSlider2" method="_on_value_changed"]
