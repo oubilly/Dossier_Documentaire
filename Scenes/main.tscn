@@ -1,0 +1,2259 @@
+[gd_scene format=3 uid="uid://bocjd788dxirj"]
+
+[ext_resource type="Texture2D" uid="uid://b8gx5rqo4ijdw" path="res://Assets/cloud1.png" id="1_bo1nx"]
+[ext_resource type="Script" uid="uid://djsucfjp34wmh" path="res://Scenes/main.gd" id="1_jjvhh"]
+[ext_resource type="Texture2D" uid="uid://pg6ex0fiyhic" path="res://Assets/cloud2.png" id="2_8gbba"]
+[ext_resource type="Script" uid="uid://dbvwrbw1y820d" path="res://Scenes/h_slider_1.gd" id="2_344ge"]
+[ext_resource type="Texture2D" uid="uid://g65skhhsk4k4" path="res://Assets/Plane.png" id="3_8gbba"]
+[ext_resource type="Script" uid="uid://dg7bim0tx864d" path="res://Scenes/h_slider_2.gd" id="3_cbgmd"]
+[ext_resource type="Script" uid="uid://c303263bc713n" path="res://Scenes/h_slider_3.gd" id="4_s8vy0"]
+[ext_resource type="FontFile" uid="uid://b334h4fifd2le" path="res://Assets/StoryScript-Regular.ttf" id="5_kry3j"]
+[ext_resource type="Texture2D" uid="uid://bimox8l1fmuci" path="res://Assets/dossier-doc_arrow.png" id="6_21xkr"]
+[ext_resource type="Script" uid="uid://cxd2tu7iv8h06" path="res://Scenes/dossier_doc_arrow.gd" id="7_6bp64"]
+[ext_resource type="Texture2D" uid="uid://bpcyi8kiys2th" path="res://Assets/Caroline Dawson/FR1.png" id="9_hptm8"]
+[ext_resource type="Texture2D" uid="uid://2q8hbtdo083v" path="res://Assets/click.png" id="10_d1ilt"]
+[ext_resource type="Shader" uid="uid://duuhemnsc74yj" path="res://Scenes/outline.gdshader" id="10_k12tt"]
+[ext_resource type="Texture2D" uid="uid://p8x81rgl6gh0" path="res://Assets/Caroline Dawson/FR2.png" id="11_d1ilt"]
+[ext_resource type="Texture2D" uid="uid://75g7qbkpsqyh" path="res://Assets/Caroline Dawson/FR3.png" id="12_fdnlq"]
+[ext_resource type="Texture2D" uid="uid://br7is7y8eir1n" path="res://Assets/Référents/liberté.png" id="12_fevyy"]
+[ext_resource type="Texture2D" uid="uid://c0ov2dp5sjobf" path="res://Assets/Référents/logo-radio-canada-1635799085.png" id="13_hibaj"]
+[ext_resource type="Texture2D" uid="uid://dj0npeqpnaenb" path="res://Assets/Caroline Dawson/FR4.png" id="13_jkdf5"]
+[ext_resource type="Texture2D" uid="uid://dwlnbowcwgm4p" path="res://Assets/Caroline Dawson/FR6.png" id="14_jkdf5"]
+[ext_resource type="Texture2D" uid="uid://dfsdlsxeep1bs" path="res://Assets/Référents/passe partout.png" id="14_pdsj5"]
+[ext_resource type="Texture2D" uid="uid://dtu0olcgqidwc" path="res://Assets/Caroline Dawson/FR5.png" id="14_wsu2k"]
+[ext_resource type="Texture2D" uid="uid://bo4yo8hiw3myu" path="res://Assets/Référents/brebeuf-logo-signature_bourgogne_rvb.png" id="16_ee4r6"]
+[ext_resource type="Texture2D" uid="uid://ceviwgaqhclx5" path="res://Assets/Référents/qc-loisirs.png" id="17_gt3je"]
+[ext_resource type="Texture2D" uid="uid://1p6v3n8nu1k0" path="res://Assets/Référents/Ramada_Worldwide_logo.svg.png" id="18_3pmx8"]
+[ext_resource type="Texture2D" uid="uid://eke6rpimi210" path="res://Assets/Référents/CIBC_logo_2021.svg.png" id="19_u50mg"]
+[ext_resource type="Texture2D" uid="uid://di56otduq8bfd" path="res://Assets/Référents/pjc-pharmacie-jean-coutu-logo-png-transparent.png" id="20_cbgmd"]
+[ext_resource type="Texture2D" uid="uid://bdqnfxtvpide7" path="res://Assets/Référents/Rossy_logo.svg.png" id="22_1w6v2"]
+[ext_resource type="Texture2D" uid="uid://b8qnuo3ltvyu0" path="res://Assets/Entrevue/Avant_l_immigration-removebg-preview.png" id="27_kltya"]
+[ext_resource type="Texture2D" uid="uid://c2f4au2r3uvfw" path="res://Assets/Entrevue/Avant_l_immigration_1_-removebg-preview.png" id="28_e08e2"]
+[ext_resource type="Texture2D" uid="uid://bcmtyao3losjy" path="res://Assets/Entrevue/Avant_l_immigration_2_-removebg-preview.png" id="29_neg2b"]
+[ext_resource type="Texture2D" uid="uid://bcdqlarh0ahef" path="res://Assets/Entrevue/Avant_l_immigration_3_-removebg-preview.png" id="30_r33sp"]
+[ext_resource type="Texture2D" uid="uid://bcm5q38nn3sju" path="res://Assets/Entrevue/Avant_l_immigration_4_-removebg-preview.png" id="31_hdf80"]
+[ext_resource type="Texture2D" uid="uid://gkvk6nq8t3ac" path="res://Assets/Entrevue/Avant_l_immigration_5_-removebg-preview.png" id="32_jwpg7"]
+[ext_resource type="Texture2D" uid="uid://cdrlx1gfe46q3" path="res://Assets/Comparaison/venn-dia.png" id="33_e08e2"]
+[ext_resource type="Texture2D" uid="uid://cukcdwqt56wop" path="res://Assets/Comparaison/boat-people.JPEG" id="34_r33sp"]
+[ext_resource type="Texture2D" uid="uid://bvq5uf0r1650q" path="res://Assets/Comparaison/Screenshot 2026-01-29 151728.png" id="35_hdf80"]
+[ext_resource type="Texture2D" uid="uid://seyupbfahmi4" path="res://Assets/Comparaison/20221016_130536.jpg" id="36_jwpg7"]
+[ext_resource type="Texture2D" uid="uid://nj00r06r45t7" path="res://Assets/Comparaison/20250619_143441.jpg" id="37_k2e45"]
+[ext_resource type="Texture2D" uid="uid://dpnhth8vujt3s" path="res://Assets/Screenshot 2026-01-30 091431.png" id="38_k2e45"]
+[ext_resource type="Texture2D" uid="uid://bpg15khy7w3q3" path="res://Assets/Journal/Screenshot 2026-01-30 095445.png" id="40_jut3y"]
+[ext_resource type="Texture2D" uid="uid://kn2kojc86tka" path="res://Assets/Journal/Screenshot 2026-01-30 101043.png" id="41_v2nl5"]
+[ext_resource type="Texture2D" uid="uid://bhyh4h15xat4n" path="res://Assets/Journal/Screenshot 2026-01-30 101931.png" id="42_dmskm"]
+[ext_resource type="Texture2D" uid="uid://df2l686ohcm0k" path="res://Assets/Journal/Screenshot 2026-01-30 100343.png" id="43_xdkp6"]
+[ext_resource type="Texture2D" uid="uid://dbo7rrto5qvdv" path="res://Assets/Journal/Screenshot 2026-01-30 101052.png" id="44_54nrm"]
+[ext_resource type="Texture2D" uid="uid://b6055hg2klm6k" path="res://Assets/Journal/Screenshot 2026-01-30 101242.png" id="45_55jeb"]
+[ext_resource type="Texture2D" uid="uid://ctvg33srs2jok" path="res://Assets/Journal/Screenshot 2026-01-30 101253.png" id="46_gsvbx"]
+[ext_resource type="Texture2D" uid="uid://5cymj6v1t71f" path="res://Assets/Journal/Screenshot 2026-01-30 100957.png" id="47_bv80c"]
+
+[sub_resource type="Environment" id="Environment_6bp64"]
+background_mode = 3
+glow_enabled = true
+glow_intensity = 0.46
+glow_bloom = 1.0
+adjustment_enabled = true
+adjustment_brightness = 0.7
+adjustment_contrast = 1.25
+
+[sub_resource type="Gradient" id="Gradient_6bp64"]
+colors = PackedColorArray(0, 0, 0, 1, 0.18120003, 0.18120006, 0.18120003, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_344ge"]
+gradient = SubResource("Gradient_6bp64")
+width = 1920
+height = 1080
+fill_from = Vector2(0.49421966, 0)
+fill_to = Vector2(0.21387284, 0.9248555)
+
+[sub_resource type="Shader" id="Shader_gt3je"]
+code = "shader_type canvas_item;
+
+// ---------- Outline 1 (outer or inner, configurable) ----------
+uniform float outline1_maxLineWidth: hint_range(0.0, 100.0) = 10.0;
+uniform float outline1_minLineWidth: hint_range(0.0, 100.0) = 50.0;
+uniform float outline1_blockSize: hint_range(0.001, 100.0) = 80.0;
+uniform vec4  outline1_color: source_color = vec4(1.0, 1.0, 1.0, 1.0);
+
+// ---------- Outline 2 (other outline) ----------
+uniform float outline2_maxLineWidth: hint_range(0.0, 100.0) = 00.0;
+uniform float outline2_minLineWidth: hint_range(0.0, 100.0) = 30.0;
+uniform float outline2_blockSize: hint_range(0.001, 100.0) = 80.0;
+uniform vec4  outline2_color: source_color = vec4(0.0, 0.0, 0.0, 1.0);
+
+// Shared controls
+uniform float speed: hint_range(0.0, 10.0) = 10.0; // how often to recompute the noisy width
+uniform float tolerance: hint_range(0.0, 0.999) = 0.95; // alpha tolerance for considering a pixel transparent
+
+// Compensate VERTEX for both outlines' maximum possible widths so the sprite quad is big enough.
+void vertex() {
+	float max1 = max(outline1_maxLineWidth, outline1_minLineWidth);
+	float max2 = max(outline2_maxLineWidth, outline2_minLineWidth);
+	float combinedMax = max(max1, max2);
+	VERTEX = vec2(
+		VERTEX.x * (1.0 + TEXTURE_PIXEL_SIZE.x * combinedMax * 2.0),
+		VERTEX.y * (1.0 + TEXTURE_PIXEL_SIZE.y * combinedMax * 2.0)
+	);
+}
+
+// ---------- Helpers (alpha checks, noise) ----------
+bool border(vec2 uv) {
+	vec2 uvBorder = abs(uv - vec2(0.5));
+	return max(step(0.5, uvBorder.x), step(0.5, uvBorder.y)) > 0.0;
+}
+
+float get_alpha(sampler2D tex, vec2 uv){
+	float res = 0.0;
+	if (!border(uv)) {
+		res = texture(tex, uv).a;
+	}
+	return res;
+}
+
+float hash(vec2 p, float s) {
+	return fract(35.1 * sin(dot(vec3(112.3, 459.2, 753.2), vec3(p, s))));
+}
+
+float noise(vec2 p, float s) {
+	vec2 d = vec2(0, 1);
+	vec2 b = floor(p);
+	vec2 f = fract(p);
+	return mix(
+		mix(hash(b + d.xx, s), hash(b + d.yx, s), f.x),
+		mix(hash(b + d.xy, s), hash(b + d.yy, s), f.x),
+		f.y
+	);
+}
+
+// Randomize line width at fragment but parameterized per-outline.
+float get_line_width(vec2 p, float s, float inMin, float inMax, float inBlockSize) {
+	p /= inBlockSize;
+	float w = 0.0;
+	float intensity = 1.0;
+	for (int i = 0; i < 3; i++) {
+		w = mix(w, noise(p, s), intensity);
+		p /= 2.0;
+		intensity /= 2.0;
+	}
+	return mix(inMax, inMin, w);
+}
+
+// Checks for neighboring pixels (used to decide if this fragment is within outline range)
+float in_range(vec2 size, sampler2D tex, vec2 uv) {
+	float res = 0.0;
+	for (float i = -1.0; i < 2.0; i += 2.0) {
+		res += get_alpha(tex, uv + vec2(i * size.x, 0.0));
+		res += get_alpha(tex, uv + vec2(0.0, i * size.y));
+		for (float j = -1.0; j < 2.0; j += 2.0) {
+			res += get_alpha(tex, uv + vec2(i * size.x, j * size.y));
+			res += get_alpha(tex, uv + vec2(i * size.x, j * size.y * 0.5));
+		}
+	}
+	return res;
+}
+
+void fragment() {
+	vec4 outColor = vec4(0.0);
+
+	// Check if outlines are disabled
+	bool outlines_disabled = max(max(outline1_maxLineWidth, outline1_minLineWidth),
+	                             max(outline2_maxLineWidth, outline2_minLineWidth)) <= 0.0;
+
+	if (outlines_disabled) {
+		outColor = texture(TEXTURE, UV);
+	} else {
+		// Adjust UV similarly to original so the outline appears around the sprite
+		vec2 uv = UV;
+		uv -= vec2(0.5);
+		float max1 = max(outline1_maxLineWidth, outline1_minLineWidth);
+		float max2 = max(outline2_maxLineWidth, outline2_minLineWidth);
+		float combinedMax = max(max1, max2);
+		vec2 edge = TEXTURE_PIXEL_SIZE * combinedMax * 2.0;
+		uv = uv + uv * edge;
+		uv += vec2(0.5);
+
+		// Sample the texture at adjusted UV
+		vec4 texCol = texture(TEXTURE, uv);
+
+		// If this fragment is inside the sprite (opaque enough) and not on the edge, keep the sprite pixel.
+		if (texCol.a > tolerance && !border(uv)) {
+			outColor = texCol;
+		} else {
+			// Compute time step seed for noise; offset slightly per-outline so they don't share identical noise
+			float timeStep = floor(TIME * speed);
+
+			// Outline 1
+			vec2 size1 = TEXTURE_PIXEL_SIZE;
+			size1 *= get_line_width(uv / TEXTURE_PIXEL_SIZE, timeStep + 0.0, outline1_minLineWidth, outline1_maxLineWidth, outline1_blockSize);
+			float mask1 = step(1.0 - tolerance, in_range(size1, TEXTURE, uv)); // 1.0 if within the outline1 radius
+
+			// Outline 2
+			vec2 size2 = TEXTURE_PIXEL_SIZE;
+			size2 *= get_line_width(uv / TEXTURE_PIXEL_SIZE, timeStep + 37.0, outline2_minLineWidth, outline2_maxLineWidth, outline2_blockSize);
+			float mask2 = step(1.0 - tolerance, in_range(size2, TEXTURE, uv)); // 1.0 if within the outline2 radius
+
+			// Compose final outline color.
+			// Priority: outline2 drawn over outline1 when both apply. If neither applies, remain transparent.
+			vec4 finalOutline = vec4(0.0);
+			finalOutline = outline1_color * mask1;
+			finalOutline = mix(finalOutline, outline2_color * mask2, mask2);
+
+			outColor = finalOutline;
+		}
+	}
+
+	COLOR = outColor;
+}
+"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3pmx8"]
+shader = SubResource("Shader_gt3je")
+shader_parameter/outline1_maxLineWidth = 10.0
+shader_parameter/outline1_minLineWidth = 50.0
+shader_parameter/outline1_blockSize = 80.0
+shader_parameter/outline1_color = Color(1, 1, 1, 1)
+shader_parameter/outline2_maxLineWidth = 0.0
+shader_parameter/outline2_minLineWidth = 30.0
+shader_parameter/outline2_blockSize = 80.0
+shader_parameter/outline2_color = Color(0, 0, 0, 1)
+shader_parameter/speed = 10.0
+shader_parameter/tolerance = 0.95
+
+[sub_resource type="Animation" id="Animation_jjvhh"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-699, 254)]
+}
+
+[sub_resource type="Animation" id="Animation_kry3j"]
+resource_name = "flying"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.39, 0.6666667, 1.0666667, 1.5, 1.9333333, 2.4, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-699, 254), Vector2(-686, 236), Vector2(-710, 278), Vector2(-658, 267), Vector2(-750, 257), Vector2(-687, 266), Vector2(-606, 207), Vector2(-699, 254)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_21xkr"]
+_data = {
+&"RESET": SubResource("Animation_jjvhh"),
+&"flying": SubResource("Animation_kry3j")
+}
+
+[sub_resource type="Gradient" id="Gradient_jjvhh"]
+offsets = PackedFloat32Array(0.144, 1)
+colors = PackedColorArray(0.8517895, 0.9316549, 0.99115866, 1, 0.2509804, 0.627451, 0.8627451, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_kry3j"]
+gradient = SubResource("Gradient_jjvhh")
+width = 10000
+height = 1080
+fill_from = Vector2(0.49421966, 1)
+fill_to = Vector2(0.50289017, 0)
+
+[sub_resource type="Animation" id="Animation_21xkr"]
+resource_name = "Idle"
+length = 4.266667
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.1666666, 2.1333334, 3.2514486, 4.266667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.01745329251994329, -0.02094395102393175, 0.00872664625997164, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../SubTitle1:rotation")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.8333333, 1.5666667, 2.6333334, 3.2514486, 4.266667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.01047197551196637, 0.02792526803190967, -0.0296705972839034, 0.03490658503988659, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../SubTitle2:rotation")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5, 1.4666667, 2.4333334, 3.2514486, 4.266667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.01047197551196637, -0.02094395102393175, 0.02617993877991494, -0.0122173047639601, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_6bp64"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../SubTitle1:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../SubTitle2:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_344ge"]
+_data = {
+&"Idle": SubResource("Animation_21xkr"),
+&"RESET": SubResource("Animation_6bp64")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_21xkr"]
+font = ExtResource("5_kry3j")
+font_size = 150
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_6bp64"]
+font = ExtResource("5_kry3j")
+font_size = 50
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Animation" id="Animation_u50mg"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(830, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_cbgmd"]
+resource_name = "pointing"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(830, 0), Vector2(850, 0), Vector2(830, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1w6v2"]
+_data = {
+&"RESET": SubResource("Animation_u50mg"),
+&"pointing": SubResource("Animation_cbgmd")
+}
+
+[sub_resource type="Animation" id="Animation_344ge"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(2830, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ynf5e"]
+resource_name = "pointing"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.9881854, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(2830, 0), Vector2(2850.67, 0), Vector2(2830, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_hptm8"]
+_data = {
+&"RESET": SubResource("Animation_344ge"),
+&"pointing": SubResource("Animation_ynf5e")
+}
+
+[sub_resource type="Animation" id="Animation_6iyac"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1528, 484)]
+}
+
+[sub_resource type="Animation" id="Animation_fdnlq"]
+resource_name = "move"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1528, 484), Vector2(2492, 484), Vector2(1528, 484)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jkdf5"]
+_data = {
+&"RESET": SubResource("Animation_6iyac"),
+&"move": SubResource("Animation_fdnlq")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_ynf5e"]
+font = ExtResource("5_kry3j")
+font_size = 70
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_h1bgf"]
+shader = ExtResource("10_k12tt")
+shader_parameter/outline1_maxLineWidth = 10.0
+shader_parameter/outline1_minLineWidth = 50.0
+shader_parameter/outline1_blockSize = 80.0
+shader_parameter/outline1_color = Color(1, 1, 1, 1)
+shader_parameter/outline2_maxLineWidth = 0.0
+shader_parameter/outline2_minLineWidth = 30.0
+shader_parameter/outline2_blockSize = 80.0
+shader_parameter/outline2_color = Color(0, 0, 0, 1)
+shader_parameter/speed = 10.0
+shader_parameter/tolerance = 0.95
+
+[sub_resource type="LabelSettings" id="LabelSettings_hptm8"]
+font = ExtResource("5_kry3j")
+font_size = 95
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_wsu2k"]
+font = ExtResource("5_kry3j")
+font_size = 92
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Shader" id="Shader_ee4r6"]
+code = "shader_type canvas_item;
+
+// ---------- Outline 1 (outer or inner, configurable) ----------
+uniform float outline1_maxLineWidth: hint_range(0.0, 100.0) = 10.0;
+uniform float outline1_minLineWidth: hint_range(0.0, 100.0) = 50.0;
+uniform float outline1_blockSize: hint_range(0.001, 100.0) = 80.0;
+uniform vec4  outline1_color: source_color = vec4(1.0, 1.0, 1.0, 1.0);
+
+// ---------- Outline 2 (other outline) ----------
+uniform float outline2_maxLineWidth: hint_range(0.0, 100.0) = 00.0;
+uniform float outline2_minLineWidth: hint_range(0.0, 100.0) = 30.0;
+uniform float outline2_blockSize: hint_range(0.001, 100.0) = 80.0;
+uniform vec4  outline2_color: source_color = vec4(0.0, 0.0, 0.0, 1.0);
+
+// Shared controls
+uniform float speed: hint_range(0.0, 10.0) = 10.0; // how often to recompute the noisy width
+uniform float tolerance: hint_range(0.0, 0.999) = 0.95; // alpha tolerance for considering a pixel transparent
+
+// Compensate VERTEX for both outlines' maximum possible widths so the sprite quad is big enough.
+void vertex() {
+	float max1 = max(outline1_maxLineWidth, outline1_minLineWidth);
+	float max2 = max(outline2_maxLineWidth, outline2_minLineWidth);
+	float combinedMax = max(max1, max2);
+	VERTEX = vec2(
+		VERTEX.x * (1.0 + TEXTURE_PIXEL_SIZE.x * combinedMax * 2.0),
+		VERTEX.y * (1.0 + TEXTURE_PIXEL_SIZE.y * combinedMax * 2.0)
+	);
+}
+
+// ---------- Helpers (alpha checks, noise) ----------
+bool border(vec2 uv) {
+	vec2 uvBorder = abs(uv - vec2(0.5));
+	return max(step(0.5, uvBorder.x), step(0.5, uvBorder.y)) > 0.0;
+}
+
+float get_alpha(sampler2D tex, vec2 uv){
+	float res = 0.0;
+	if (!border(uv)) {
+		res = texture(tex, uv).a;
+	}
+	return res;
+}
+
+float hash(vec2 p, float s) {
+	return fract(35.1 * sin(dot(vec3(112.3, 459.2, 753.2), vec3(p, s))));
+}
+
+float noise(vec2 p, float s) {
+	vec2 d = vec2(0, 1);
+	vec2 b = floor(p);
+	vec2 f = fract(p);
+	return mix(
+		mix(hash(b + d.xx, s), hash(b + d.yx, s), f.x),
+		mix(hash(b + d.xy, s), hash(b + d.yy, s), f.x),
+		f.y
+	);
+}
+
+// Randomize line width at fragment but parameterized per-outline.
+float get_line_width(vec2 p, float s, float inMin, float inMax, float inBlockSize) {
+	p /= inBlockSize;
+	float w = 0.0;
+	float intensity = 1.0;
+	for (int i = 0; i < 3; i++) {
+		w = mix(w, noise(p, s), intensity);
+		p /= 2.0;
+		intensity /= 2.0;
+	}
+	return mix(inMax, inMin, w);
+}
+
+// Checks for neighboring pixels (used to decide if this fragment is within outline range)
+float in_range(vec2 size, sampler2D tex, vec2 uv) {
+	float res = 0.0;
+	for (float i = -1.0; i < 2.0; i += 2.0) {
+		res += get_alpha(tex, uv + vec2(i * size.x, 0.0));
+		res += get_alpha(tex, uv + vec2(0.0, i * size.y));
+		for (float j = -1.0; j < 2.0; j += 2.0) {
+			res += get_alpha(tex, uv + vec2(i * size.x, j * size.y));
+			res += get_alpha(tex, uv + vec2(i * size.x, j * size.y * 0.5));
+		}
+	}
+	return res;
+}
+
+void fragment() {
+	vec4 outColor = vec4(0.0);
+
+	// Check if outlines are disabled
+	bool outlines_disabled = max(max(outline1_maxLineWidth, outline1_minLineWidth),
+	                             max(outline2_maxLineWidth, outline2_minLineWidth)) <= 0.0;
+
+	if (outlines_disabled) {
+		outColor = texture(TEXTURE, UV);
+	} else {
+		// Adjust UV similarly to original so the outline appears around the sprite
+		vec2 uv = UV;
+		uv -= vec2(0.5);
+		float max1 = max(outline1_maxLineWidth, outline1_minLineWidth);
+		float max2 = max(outline2_maxLineWidth, outline2_minLineWidth);
+		float combinedMax = max(max1, max2);
+		vec2 edge = TEXTURE_PIXEL_SIZE * combinedMax * 2.0;
+		uv = uv + uv * edge;
+		uv += vec2(0.5);
+
+		// Sample the texture at adjusted UV
+		vec4 texCol = texture(TEXTURE, uv);
+
+		// If this fragment is inside the sprite (opaque enough) and not on the edge, keep the sprite pixel.
+		if (texCol.a > tolerance && !border(uv)) {
+			outColor = texCol;
+		} else {
+			// Compute time step seed for noise; offset slightly per-outline so they don't share identical noise
+			float timeStep = floor(TIME * speed);
+
+			// Outline 1
+			vec2 size1 = TEXTURE_PIXEL_SIZE;
+			size1 *= get_line_width(uv / TEXTURE_PIXEL_SIZE, timeStep + 0.0, outline1_minLineWidth, outline1_maxLineWidth, outline1_blockSize);
+			float mask1 = step(1.0 - tolerance, in_range(size1, TEXTURE, uv)); // 1.0 if within the outline1 radius
+
+			// Outline 2
+			vec2 size2 = TEXTURE_PIXEL_SIZE;
+			size2 *= get_line_width(uv / TEXTURE_PIXEL_SIZE, timeStep + 37.0, outline2_minLineWidth, outline2_maxLineWidth, outline2_blockSize);
+			float mask2 = step(1.0 - tolerance, in_range(size2, TEXTURE, uv)); // 1.0 if within the outline2 radius
+
+			// Compose final outline color.
+			// Priority: outline2 drawn over outline1 when both apply. If neither applies, remain transparent.
+			vec4 finalOutline = vec4(0.0);
+			finalOutline = outline1_color * mask1;
+			finalOutline = mix(finalOutline, outline2_color * mask2, mask2);
+
+			outColor = finalOutline;
+		}
+	}
+
+	COLOR = outColor;
+}
+"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gt3je"]
+shader = SubResource("Shader_ee4r6")
+shader_parameter/outline1_maxLineWidth = 10.0
+shader_parameter/outline1_minLineWidth = 1.46000006935
+shader_parameter/outline1_blockSize = 80.0
+shader_parameter/outline1_color = Color(1, 1, 1, 1)
+shader_parameter/outline2_maxLineWidth = 0.0
+shader_parameter/outline2_minLineWidth = 1.46000006935
+shader_parameter/outline2_blockSize = 80.0
+shader_parameter/outline2_color = Color(0, 0, 0, 1)
+shader_parameter/speed = 10.0
+shader_parameter/tolerance = 0.95
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ee4r6"]
+shader = ExtResource("10_k12tt")
+shader_parameter/outline1_maxLineWidth = 10.0
+shader_parameter/outline1_minLineWidth = 23.722001126795
+shader_parameter/outline1_blockSize = 80.0
+shader_parameter/outline1_color = Color(1, 1, 1, 1)
+shader_parameter/outline2_maxLineWidth = 0.0
+shader_parameter/outline2_minLineWidth = 8.83200041952
+shader_parameter/outline2_blockSize = 80.0
+shader_parameter/outline2_color = Color(0, 0, 0, 1)
+shader_parameter/speed = 10.0
+shader_parameter/tolerance = 0.95
+
+[sub_resource type="Animation" id="Animation_1w6v2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(4830, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ueoa1"]
+resource_name = "pointing"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(4830, 0), Vector2(4850, 0), Vector2(4830, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6vcvc"]
+_data = {
+&"RESET": SubResource("Animation_1w6v2"),
+&"pointing": SubResource("Animation_ueoa1")
+}
+
+[sub_resource type="Animation" id="Animation_jwpg7"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(6830, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_k2e45"]
+resource_name = "pointing"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(6830, 0), Vector2(6850, 0), Vector2(6830, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_536cc"]
+_data = {
+&"RESET": SubResource("Animation_jwpg7"),
+&"pointing": SubResource("Animation_k2e45")
+}
+
+[sub_resource type="Animation" id="Animation_536cc"]
+length = 0.001
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(8830, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_aqgau"]
+resource_name = "pointing"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(8830, 0), Vector2(8850, 0), Vector2(8830, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_8cuat"]
+_data = {
+&"RESET": SubResource("Animation_536cc"),
+&"pointing": SubResource("Animation_aqgau")
+}
+
+[sub_resource type="Animation" id="Animation_ptfg5"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(10830, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_2daye"]
+resource_name = "pointing"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(10830, 0), Vector2(10850, 0), Vector2(10830, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1semv"]
+_data = {
+&"RESET": SubResource("Animation_ptfg5"),
+&"pointing": SubResource("Animation_2daye")
+}
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_k2e45"]
+shader = ExtResource("10_k12tt")
+shader_parameter/outline1_maxLineWidth = 10.0
+shader_parameter/outline1_minLineWidth = 15.0000007125
+shader_parameter/outline1_blockSize = 80.0
+shader_parameter/outline1_color = Color(1, 1, 1, 1)
+shader_parameter/outline2_maxLineWidth = 0.0
+shader_parameter/outline2_minLineWidth = 10.000000475
+shader_parameter/outline2_blockSize = 80.0
+shader_parameter/outline2_color = Color(0, 0, 0, 1)
+shader_parameter/speed = 10.0
+shader_parameter/tolerance = 0.95
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jwpg7"]
+shader = ExtResource("10_k12tt")
+shader_parameter/outline1_maxLineWidth = 41.3870019658825
+shader_parameter/outline1_minLineWidth = 100.0
+shader_parameter/outline1_blockSize = 80.0
+shader_parameter/outline1_color = Color(1, 1, 1, 1)
+shader_parameter/outline2_maxLineWidth = 51.0950024270125
+shader_parameter/outline2_minLineWidth = 60.5870028778825
+shader_parameter/outline2_blockSize = 100.0
+shader_parameter/outline2_color = Color(0, 0, 0, 1)
+shader_parameter/speed = 10.0
+shader_parameter/tolerance = 0.95
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_536cc"]
+shader = ExtResource("10_k12tt")
+shader_parameter/outline1_maxLineWidth = 10.0
+shader_parameter/outline1_minLineWidth = 20.8030009881425
+shader_parameter/outline1_blockSize = 80.0
+shader_parameter/outline1_color = Color(1, 1, 1, 1)
+shader_parameter/outline2_maxLineWidth = 0.0
+shader_parameter/outline2_minLineWidth = 18.3210008702475
+shader_parameter/outline2_blockSize = 80.0
+shader_parameter/outline2_color = Color(0, 0, 0, 1)
+shader_parameter/speed = 10.0
+shader_parameter/tolerance = 0.95
+
+[sub_resource type="LabelSettings" id="LabelSettings_r33sp"]
+paragraph_spacing = -10.0
+font = ExtResource("5_kry3j")
+font_size = 23
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_aqgau"]
+shader = ExtResource("10_k12tt")
+shader_parameter/outline1_maxLineWidth = 10.0
+shader_parameter/outline1_minLineWidth = 50.0
+shader_parameter/outline1_blockSize = 80.0
+shader_parameter/outline1_color = Color(1, 1, 1, 1)
+shader_parameter/outline2_maxLineWidth = 0.0
+shader_parameter/outline2_minLineWidth = 30.0
+shader_parameter/outline2_blockSize = 80.0
+shader_parameter/outline2_color = Color(0, 0, 0, 1)
+shader_parameter/speed = 10.0
+shader_parameter/tolerance = 0.95
+
+[sub_resource type="LabelSettings" id="LabelSettings_s8vy0"]
+font = ExtResource("5_kry3j")
+font_size = 40
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2060n"]
+shader = ExtResource("10_k12tt")
+shader_parameter/outline1_maxLineWidth = 10.0
+shader_parameter/outline1_minLineWidth = 50.0
+shader_parameter/outline1_blockSize = 80.0
+shader_parameter/outline1_color = Color(1, 1, 1, 1)
+shader_parameter/outline2_maxLineWidth = 0.0
+shader_parameter/outline2_minLineWidth = 30.0
+shader_parameter/outline2_blockSize = 80.0
+shader_parameter/outline2_color = Color(0, 0, 0, 1)
+shader_parameter/speed = 10.0
+shader_parameter/tolerance = 0.95
+
+[node name="Main" type="Node2D" unique_id=1669617665]
+script = ExtResource("1_jjvhh")
+
+[node name="HSlider1" type="HSlider" parent="." unique_id=730500826]
+z_index = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 1750.0
+offset_top = 450.0
+offset_right = 2250.0
+offset_bottom = 466.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+pivot_offset = Vector2(250, 0)
+max_value = 5.0
+script = ExtResource("2_344ge")
+
+[node name="HSlider2" type="HSlider" parent="." unique_id=439222854]
+z_index = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 3750.0
+offset_top = 450.0
+offset_right = 4250.0
+offset_bottom = 466.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+pivot_offset = Vector2(250, 0)
+max_value = 5.0
+script = ExtResource("3_cbgmd")
+
+[node name="HSlider3" type="HSlider" parent="." unique_id=1657750019]
+z_index = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 9750.0
+offset_top = 450.0
+offset_right = 10250.0
+offset_bottom = 466.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+pivot_offset = Vector2(250, 0)
+max_value = 5.0
+script = ExtResource("4_s8vy0")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1361579530]
+environment = SubResource("Environment_6bp64")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1486780685]
+
+[node name="Darken" type="Sprite2D" parent="Camera2D" unique_id=1393117001]
+modulate = Color(1, 1, 1, 0.02745098)
+z_index = 2
+scale = Vector2(1.2, 1.2)
+texture = SubResource("GradientTexture2D_344ge")
+
+[node name="Plane" type="Node2D" parent="." unique_id=1359029418]
+z_index = 1
+material = SubResource("ShaderMaterial_3pmx8")
+
+[node name="Plane" type="Sprite2D" parent="Plane" unique_id=928508701]
+use_parent_material = true
+position = Vector2(-699, 254)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_8gbba")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Plane/Plane" unique_id=398908681]
+libraries/ = SubResource("AnimationLibrary_21xkr")
+speed_scale = 0.2
+
+[node name="BG" type="Parallax2D" parent="." unique_id=1658947864]
+visible = false
+scroll_scale = Vector2(0, 0)
+scroll_offset = Vector2(960, 540)
+
+[node name="BG" type="Sprite2D" parent="BG" unique_id=1482768143]
+texture = SubResource("GradientTexture2D_kry3j")
+
+[node name="Clouds" type="Parallax2D" parent="." unique_id=316155346]
+visible = false
+repeat_size = Vector2(7000, 0)
+autoscroll = Vector2(-500, 0)
+repeat_times = 10
+
+[node name="Clouds1" type="Node2D" parent="Clouds" unique_id=1131383979]
+
+[node name="Cloud1_1" type="Sprite2D" parent="Clouds/Clouds1" unique_id=1266743172]
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_2" type="Sprite2D" parent="Clouds/Clouds1" unique_id=1639051054]
+modulate = Color(1, 1, 1, 0.6039216)
+position = Vector2(-208.99994, 103)
+rotation = 3.1415927
+scale = Vector2(0.22, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_3" type="Sprite2D" parent="Clouds/Clouds1" unique_id=533935093]
+modulate = Color(1, 1, 1, 0.6039216)
+position = Vector2(647.99994, -166)
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_4" type="Sprite2D" parent="Clouds/Clouds1" unique_id=1642833371]
+position = Vector2(439.00006, -63)
+rotation = 3.1415927
+scale = Vector2(0.22, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_5" type="Sprite2D" parent="Clouds/Clouds1" unique_id=1998955294]
+modulate = Color(1, 1, 1, 0.6039216)
+position = Vector2(-559, -249)
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_6" type="Sprite2D" parent="Clouds/Clouds1" unique_id=880388859]
+position = Vector2(539, 230)
+rotation = 3.1415927
+scale = Vector2(0.26, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud2" type="Sprite2D" parent="Clouds/Clouds1" unique_id=1385879269]
+position = Vector2(-734, 332)
+scale = Vector2(0.055, 0.055)
+texture = ExtResource("2_8gbba")
+
+[node name="Clouds2" type="Node2D" parent="Clouds" unique_id=276526736]
+position = Vector2(3892, -47)
+rotation = 3.1415927
+scale = Vector2(1, -1)
+
+[node name="Cloud1_7" type="Sprite2D" parent="Clouds/Clouds2" unique_id=264396390]
+position = Vector2(2055, -3)
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_8" type="Sprite2D" parent="Clouds/Clouds2" unique_id=366353209]
+modulate = Color(1, 1, 1, 0.6862745)
+position = Vector2(1846.0002, 100)
+rotation = 3.1415927
+scale = Vector2(0.22, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_9" type="Sprite2D" parent="Clouds/Clouds2" unique_id=1524095141]
+modulate = Color(1, 1, 1, 0.46666667)
+position = Vector2(2703, -169)
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_10" type="Sprite2D" parent="Clouds/Clouds2" unique_id=1070472848]
+modulate = Color(1, 1, 1, 0.6862745)
+position = Vector2(2494.0002, -66)
+rotation = 3.1415927
+scale = Vector2(0.22, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_12" type="Sprite2D" parent="Clouds/Clouds2" unique_id=1425764305]
+modulate = Color(1, 1, 1, 0.6862745)
+position = Vector2(2594, 227)
+rotation = 3.1415927
+scale = Vector2(0.26, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud3" type="Sprite2D" parent="Clouds/Clouds2" unique_id=2068957425]
+modulate = Color(1, 1, 1, 0.46666667)
+position = Vector2(1321, 329)
+scale = Vector2(0.055, 0.055)
+texture = ExtResource("2_8gbba")
+
+[node name="Clouds3" type="Node2D" parent="Clouds" unique_id=1146306107]
+position = Vector2(3536, -39)
+
+[node name="Cloud1_1" type="Sprite2D" parent="Clouds/Clouds3" unique_id=1401799775]
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_2" type="Sprite2D" parent="Clouds/Clouds3" unique_id=1247834325]
+modulate = Color(1, 1, 1, 0.6039216)
+position = Vector2(-208.99994, 103)
+rotation = 3.1415927
+scale = Vector2(0.22, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_3" type="Sprite2D" parent="Clouds/Clouds3" unique_id=929042120]
+modulate = Color(1, 1, 1, 0.6039216)
+position = Vector2(647.99994, -166)
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_5" type="Sprite2D" parent="Clouds/Clouds3" unique_id=1881827677]
+modulate = Color(1, 1, 1, 0.6039216)
+position = Vector2(-559, -249)
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_6" type="Sprite2D" parent="Clouds/Clouds3" unique_id=430702533]
+position = Vector2(539, 230)
+rotation = 3.1415927
+scale = Vector2(0.26, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud2" type="Sprite2D" parent="Clouds/Clouds3" unique_id=1498995966]
+position = Vector2(-734, 332)
+scale = Vector2(0.055, 0.055)
+texture = ExtResource("2_8gbba")
+
+[node name="Clouds4" type="Node2D" parent="Clouds" unique_id=890604494]
+position = Vector2(7428, -86)
+rotation = 3.1415927
+scale = Vector2(1, -1)
+
+[node name="Cloud1_7" type="Sprite2D" parent="Clouds/Clouds4" unique_id=2113769096]
+position = Vector2(2055, -3)
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_8" type="Sprite2D" parent="Clouds/Clouds4" unique_id=2073734921]
+modulate = Color(1, 1, 1, 0.6862745)
+position = Vector2(1846.0002, 100)
+rotation = 3.1415927
+scale = Vector2(0.22, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_9" type="Sprite2D" parent="Clouds/Clouds4" unique_id=2014020272]
+modulate = Color(1, 1, 1, 0.46666667)
+position = Vector2(2703, -169)
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_10" type="Sprite2D" parent="Clouds/Clouds4" unique_id=978095438]
+modulate = Color(1, 1, 1, 0.6862745)
+position = Vector2(2494.0002, -66)
+rotation = 3.1415927
+scale = Vector2(0.22, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_11" type="Sprite2D" parent="Clouds/Clouds4" unique_id=1518272889]
+modulate = Color(1, 1, 1, 0.46666667)
+position = Vector2(1496, -252)
+scale = Vector2(0.26, 0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud1_12" type="Sprite2D" parent="Clouds/Clouds4" unique_id=211382937]
+modulate = Color(1, 1, 1, 0.6862745)
+position = Vector2(2594, 227)
+rotation = 3.1415927
+scale = Vector2(0.26, -0.26)
+texture = ExtResource("1_bo1nx")
+
+[node name="Cloud3" type="Sprite2D" parent="Clouds/Clouds4" unique_id=801656954]
+modulate = Color(1, 1, 1, 0.46666667)
+position = Vector2(1321, 329)
+scale = Vector2(0.055, 0.055)
+texture = ExtResource("2_8gbba")
+
+[node name="Title" type="Node2D" parent="." unique_id=989653829]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Title" unique_id=613970946]
+root_node = NodePath("../Title1")
+libraries/ = SubResource("AnimationLibrary_344ge")
+
+[node name="Title1" type="Label" parent="Title" unique_id=1924577704]
+use_parent_material = true
+offset_left = -901.0
+offset_top = -486.0
+offset_right = 301.0
+offset_bottom = -291.0
+pivot_offset = Vector2(1200, 100)
+text = "Dossier documentaire"
+label_settings = SubResource("LabelSettings_21xkr")
+
+[node name="SubTitle1" type="Label" parent="Title" unique_id=745575110]
+use_parent_material = true
+offset_left = -331.0
+offset_top = -296.0
+offset_right = 433.0
+offset_bottom = -231.0
+pivot_offset = Vector2(800, 30)
+text = "Projet Fresque d’immigration: récits croisés"
+label_settings = SubResource("LabelSettings_6bp64")
+
+[node name="SubTitle2" type="Label" parent="Title" unique_id=1566326670]
+use_parent_material = true
+offset_left = 172.0
+offset_top = -214.0
+offset_right = 531.0
+offset_bottom = -149.0
+pivot_offset = Vector2(367, 30)
+text = "Réalisé par Billy Ou"
+label_settings = SubResource("LabelSettings_6bp64")
+
+[node name="DossierDocArrow1" type="Sprite2D" parent="." unique_id=213219558]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(830, 0)
+rotation = -1.5707964
+scale = Vector2(0.112, 0.109)
+texture = ExtResource("6_21xkr")
+script = ExtResource("7_6bp64")
+
+[node name="Control" type="Control" parent="DossierDocArrow1" unique_id=2090099433]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -499.99994
+offset_top = -999.99994
+offset_right = 500.00006
+offset_bottom = 1000.00006
+metadata/_edit_use_anchors_ = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DossierDocArrow1" unique_id=1829369875]
+libraries/ = SubResource("AnimationLibrary_1w6v2")
+
+[node name="DossierDocArrow2_right" type="Sprite2D" parent="." unique_id=333521450]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2830, 0)
+rotation = -1.5707964
+scale = Vector2(0.112, 0.109)
+texture = ExtResource("6_21xkr")
+script = ExtResource("7_6bp64")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DossierDocArrow2_right" unique_id=306046145]
+libraries/ = SubResource("AnimationLibrary_hptm8")
+
+[node name="Control" type="Control" parent="DossierDocArrow2_right" unique_id=1353953615]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -499.99994
+offset_top = -999.99994
+offset_right = 500.00006
+offset_bottom = 1000.00006
+
+[node name="DossierDocArrow2_left" type="Sprite2D" parent="." unique_id=819748962]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2830, 0)
+rotation = -4.712389
+scale = Vector2(0.112, 0.109)
+texture = ExtResource("6_21xkr")
+offset = Vector2(0, 15500)
+script = ExtResource("7_6bp64")
+side = "left"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DossierDocArrow2_left" unique_id=1363982363]
+libraries/ = SubResource("AnimationLibrary_hptm8")
+
+[node name="Control" type="Control" parent="DossierDocArrow2_left" unique_id=665172101]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -500.00015
+offset_top = 14458.715
+offset_right = 499.99985
+offset_bottom = 16458.715
+
+[node name="Click" type="Sprite2D" parent="." unique_id=2140775722]
+modulate = Color(1, 1, 1, 0.2901961)
+z_index = 4
+position = Vector2(1528, 484)
+texture = ExtResource("10_d1ilt")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Click" unique_id=1616202110]
+libraries/ = SubResource("AnimationLibrary_jkdf5")
+speed_scale = 0.2
+
+[node name="FRTitle" type="Label" parent="." unique_id=2083390736]
+z_index = 3
+offset_left = 1078.0
+offset_top = -521.0
+offset_right = 2171.0
+offset_bottom = -408.0
+pivot_offset = Vector2(367, 30)
+text = "Partie FRANÇAIS - Là où je me terre"
+label_settings = SubResource("LabelSettings_ynf5e")
+
+[node name="FR" type="Node2D" parent="." unique_id=1183847626]
+material = SubResource("ShaderMaterial_h1bgf")
+position = Vector2(1528, 484)
+
+[node name="FR1" type="Sprite2D" parent="FR" unique_id=748732115]
+z_index = 3
+use_parent_material = true
+position = Vector2(472, -484)
+scale = Vector2(0.67, 0.67)
+texture = ExtResource("9_hptm8")
+
+[node name="Titre3" type="Label" parent="FR/FR1" unique_id=927952365]
+z_index = 4
+offset_left = -935.8209
+offset_top = -173.13438
+offset_right = -592.8209
+offset_bottom = -48.134384
+rotation = -1.0576695
+pivot_offset = Vector2(367, 30)
+text = "SECTION 1"
+label_settings = SubResource("LabelSettings_hptm8")
+
+[node name="Sprite2D" type="Sprite2D" parent="FR/FR1" unique_id=1421487090]
+
+[node name="Liberté" type="Sprite2D" parent="FR/FR1" unique_id=332586829]
+use_parent_material = true
+position = Vector2(-1282.0896, 677.6118)
+rotation = 0.31436074
+scale = Vector2(0.278, 0.278)
+texture = ExtResource("12_fevyy")
+
+[node name="LogoRadioCanada1635799085" type="Sprite2D" parent="FR/FR1" unique_id=1207824499]
+use_parent_material = true
+position = Vector2(1346.2686, -516.4179)
+scale = Vector2(0.693, 0.693)
+texture = ExtResource("13_hibaj")
+
+[node name="PassePartout" type="Sprite2D" parent="FR/FR1" unique_id=463268176]
+use_parent_material = true
+position = Vector2(1344.7761, 482.0895)
+rotation = 0.23561946
+scale = Vector2(0.833, 0.833)
+texture = ExtResource("14_pdsj5")
+
+[node name="FR2" type="Sprite2D" parent="FR" unique_id=2084285919]
+visible = false
+z_index = 4
+use_parent_material = true
+position = Vector2(472, -484)
+scale = Vector2(0.867, 0.867)
+texture = ExtResource("11_d1ilt")
+
+[node name="Titre3" type="Label" parent="FR/FR2" unique_id=10714]
+z_index = 4
+offset_left = -899.65393
+offset_top = -170.70357
+offset_right = -485.65393
+offset_bottom = -27.703568
+rotation = -1.0576695
+pivot_offset = Vector2(367, 30)
+text = "SECTION 2"
+label_settings = SubResource("LabelSettings_wsu2k")
+
+[node name="QcLoisirs" type="Sprite2D" parent="FR/FR2" unique_id=814345286]
+material = SubResource("ShaderMaterial_gt3je")
+position = Vector2(847.75073, 485.5825)
+rotation = -0.5427974
+scale = Vector2(0.5767013, 0.5767013)
+texture = ExtResource("17_gt3je")
+
+[node name="RamadaWorldwideLogo_svg" type="Sprite2D" parent="FR/FR2" unique_id=673334298]
+material = SubResource("ShaderMaterial_ee4r6")
+position = Vector2(-898.5006, -99.19262)
+rotation = -1.2409291
+scale = Vector2(0.47866207, 0.47866207)
+texture = ExtResource("18_3pmx8")
+
+[node name="FR3" type="Sprite2D" parent="FR" unique_id=25789336]
+visible = false
+z_index = 4
+use_parent_material = true
+position = Vector2(472, -484)
+scale = Vector2(1.052, 1.052)
+texture = ExtResource("12_fdnlq")
+
+[node name="Titre3" type="Label" parent="FR/FR3" unique_id=1621072899]
+z_index = 4
+offset_left = -890.6844
+offset_top = -173.0038
+offset_right = -476.6844
+offset_bottom = -30.0038
+rotation = -1.0576695
+pivot_offset = Vector2(367, 30)
+text = "SECTION 3"
+label_settings = SubResource("LabelSettings_wsu2k")
+
+[node name="PjcPharmacieJeanCoutuLogoPngTransparent" type="Sprite2D" parent="FR/FR3" unique_id=15460922]
+use_parent_material = true
+position = Vector2(746.1975, 297.52853)
+rotation = -0.7539823
+scale = Vector2(0.23764257, 0.23764257)
+texture = ExtResource("20_cbgmd")
+
+[node name="FR4" type="Sprite2D" parent="FR" unique_id=2081084170]
+visible = false
+z_index = 4
+use_parent_material = true
+position = Vector2(472, -484)
+scale = Vector2(0.867, 0.867)
+texture = ExtResource("13_jkdf5")
+
+[node name="Titre3" type="Label" parent="FR/FR4" unique_id=623983271]
+z_index = 4
+offset_left = -889.27325
+offset_top = -186.8512
+offset_right = -475.27325
+offset_bottom = -43.851196
+rotation = -1.0576695
+pivot_offset = Vector2(367, 30)
+text = "SECTION 4"
+label_settings = SubResource("LabelSettings_wsu2k")
+
+[node name="RossyLogo_svg" type="Sprite2D" parent="FR/FR4" unique_id=2117615674]
+use_parent_material = true
+position = Vector2(663.20654, -358.70828)
+rotation = 0.6357821
+scale = Vector2(0.5017301, 0.5017301)
+texture = ExtResource("22_1w6v2")
+
+[node name="FR5" type="Sprite2D" parent="FR" unique_id=205158875]
+visible = false
+z_index = 4
+use_parent_material = true
+position = Vector2(472, -484)
+scale = Vector2(0.867, 0.867)
+texture = ExtResource("14_wsu2k")
+
+[node name="Titre3" type="Label" parent="FR/FR5" unique_id=613984821]
+z_index = 4
+offset_left = -891.5802
+offset_top = -184.54439
+offset_right = -477.5802
+offset_bottom = -41.544388
+rotation = -1.0576695
+pivot_offset = Vector2(367, 30)
+text = "SECTION 5"
+label_settings = SubResource("LabelSettings_wsu2k")
+
+[node name="CibcLogo2021_svg" type="Sprite2D" parent="FR/FR5" unique_id=1330084054]
+use_parent_material = true
+position = Vector2(703.4219, -335.5513)
+rotation = 0.3643311
+scale = Vector2(0.38498092, 0.38498092)
+texture = ExtResource("19_u50mg")
+
+[node name="FR6" type="Sprite2D" parent="FR" unique_id=147301526]
+visible = false
+z_index = 4
+use_parent_material = true
+position = Vector2(472, -484)
+scale = Vector2(0.867, 0.867)
+texture = ExtResource("14_jkdf5")
+
+[node name="Titre3" type="Label" parent="FR/FR6" unique_id=40397403]
+z_index = 4
+offset_left = -889.27325
+offset_top = -206.45905
+offset_right = -475.27325
+offset_bottom = -63.459045
+rotation = -1.0576695
+pivot_offset = Vector2(367, 30)
+text = "SECTION 6"
+label_settings = SubResource("LabelSettings_wsu2k")
+
+[node name="BrebeufLogoSignatureBourgogneRvb" type="Sprite2D" parent="FR/FR6" unique_id=1342979105]
+use_parent_material = true
+position = Vector2(825.8363, -362.1684)
+rotation = 0.53232545
+scale = Vector2(0.19607843, 0.19607843)
+texture = ExtResource("16_ee4r6")
+
+[node name="CCQTitle" type="Label" parent="." unique_id=1374038393]
+z_index = 3
+offset_left = 3078.0
+offset_top = -521.0
+offset_right = 4171.0
+offset_bottom = -408.0
+pivot_offset = Vector2(367, 30)
+text = "Partie CCQ - Portrait d'immigrant "
+label_settings = SubResource("LabelSettings_ynf5e")
+
+[node name="DossierDocArrow3_right" type="Sprite2D" parent="." unique_id=1523150902]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(4830, 0)
+rotation = -1.5707964
+scale = Vector2(0.112, 0.109)
+texture = ExtResource("6_21xkr")
+script = ExtResource("7_6bp64")
+
+[node name="Control" type="Control" parent="DossierDocArrow3_right" unique_id=1868622656]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -499.99994
+offset_top = -999.99994
+offset_right = 500.00006
+offset_bottom = 1000.00006
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DossierDocArrow3_right" unique_id=2013287674]
+libraries/ = SubResource("AnimationLibrary_6vcvc")
+
+[node name="DossierDocArrow3_left" type="Sprite2D" parent="." unique_id=1525391838]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(4830, 0)
+rotation = 1.5707964
+scale = Vector2(0.112, 0.109)
+texture = ExtResource("6_21xkr")
+offset = Vector2(0, 15500)
+script = ExtResource("7_6bp64")
+side = "left"
+
+[node name="Control" type="Control" parent="DossierDocArrow3_left" unique_id=2043066934]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -500.00015
+offset_top = 14458.715
+offset_right = 499.99985
+offset_bottom = 16458.715
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DossierDocArrow3_left" unique_id=635382316]
+libraries/ = SubResource("AnimationLibrary_6vcvc")
+
+[node name="DossierDocArrow4_right" type="Sprite2D" parent="." unique_id=557419833]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(6830, 0)
+rotation = -1.5707964
+scale = Vector2(0.112, 0.109)
+texture = ExtResource("6_21xkr")
+script = ExtResource("7_6bp64")
+
+[node name="Control" type="Control" parent="DossierDocArrow4_right" unique_id=2039339856]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -499.99994
+offset_top = -999.99994
+offset_right = 500.00006
+offset_bottom = 1000.00006
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DossierDocArrow4_right" unique_id=14163951]
+libraries/ = SubResource("AnimationLibrary_536cc")
+
+[node name="DossierDocArrow4_left" type="Sprite2D" parent="." unique_id=987347222]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(6830, 0)
+rotation = 1.5707964
+scale = Vector2(0.112, 0.109)
+texture = ExtResource("6_21xkr")
+offset = Vector2(0, 15500)
+script = ExtResource("7_6bp64")
+side = "left"
+
+[node name="Control" type="Control" parent="DossierDocArrow4_left" unique_id=170316102]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -500.00015
+offset_top = 14458.715
+offset_right = 499.99985
+offset_bottom = 16458.715
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DossierDocArrow4_left" unique_id=686661893]
+libraries/ = SubResource("AnimationLibrary_536cc")
+
+[node name="DossierDocArrow5_right" type="Sprite2D" parent="." unique_id=133718575]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(8830, 0)
+rotation = -1.5707964
+scale = Vector2(0.112, 0.109)
+texture = ExtResource("6_21xkr")
+script = ExtResource("7_6bp64")
+
+[node name="Control" type="Control" parent="DossierDocArrow5_right" unique_id=1785975651]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -499.99994
+offset_top = -999.99994
+offset_right = 500.00006
+offset_bottom = 1000.00006
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DossierDocArrow5_right" unique_id=471098354]
+libraries/ = SubResource("AnimationLibrary_8cuat")
+
+[node name="DossierDocArrow5_left" type="Sprite2D" parent="." unique_id=1410275023]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(8830, 0)
+rotation = 1.5707964
+scale = Vector2(0.112, 0.109)
+texture = ExtResource("6_21xkr")
+offset = Vector2(0, 15500)
+script = ExtResource("7_6bp64")
+side = "left"
+
+[node name="Control" type="Control" parent="DossierDocArrow5_left" unique_id=371855887]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -500.00015
+offset_top = 14458.715
+offset_right = 499.99985
+offset_bottom = 16458.715
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DossierDocArrow5_left" unique_id=1773010789]
+libraries/ = SubResource("AnimationLibrary_8cuat")
+
+[node name="DossierDocArrow5_left2" type="Sprite2D" parent="." unique_id=2100861327]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(10830, 0)
+rotation = 1.5707964
+scale = Vector2(0.112, 0.109)
+texture = ExtResource("6_21xkr")
+offset = Vector2(0, 15500)
+script = ExtResource("7_6bp64")
+side = "left"
+
+[node name="Control" type="Control" parent="DossierDocArrow5_left2" unique_id=878354766]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -500.00015
+offset_top = 14458.715
+offset_right = 499.99985
+offset_bottom = 16458.715
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DossierDocArrow5_left2" unique_id=1584801692]
+libraries/ = SubResource("AnimationLibrary_1semv")
+
+[node name="CCQ" type="Node2D" parent="." unique_id=1076555657]
+z_index = 4
+material = SubResource("ShaderMaterial_k2e45")
+
+[node name="CCQ1" type="Sprite2D" parent="CCQ" unique_id=326916017]
+use_parent_material = true
+position = Vector2(4000, 0)
+scale = Vector2(1.4, 1.4)
+texture = ExtResource("27_kltya")
+
+[node name="CCQ2" type="Sprite2D" parent="CCQ" unique_id=584983333]
+visible = false
+use_parent_material = true
+position = Vector2(4000, 0)
+scale = Vector2(1.4, 1.4)
+texture = ExtResource("28_e08e2")
+
+[node name="CCQ3" type="Sprite2D" parent="CCQ" unique_id=1803192726]
+visible = false
+use_parent_material = true
+position = Vector2(4000, 0)
+scale = Vector2(1.4, 1.4)
+texture = ExtResource("29_neg2b")
+
+[node name="CCQ4" type="Sprite2D" parent="CCQ" unique_id=338342414]
+visible = false
+use_parent_material = true
+position = Vector2(4000, 0)
+scale = Vector2(1.4, 1.4)
+texture = ExtResource("30_r33sp")
+
+[node name="CCQ5" type="Sprite2D" parent="CCQ" unique_id=1219259561]
+visible = false
+use_parent_material = true
+position = Vector2(4000, 0)
+scale = Vector2(1.4, 1.4)
+texture = ExtResource("31_hdf80")
+
+[node name="CCQ6" type="Sprite2D" parent="CCQ" unique_id=1058820112]
+visible = false
+use_parent_material = true
+position = Vector2(4000, 0)
+scale = Vector2(1.4, 1.4)
+texture = ExtResource("32_jwpg7")
+
+[node name="Comparaison" type="Node2D" parent="." unique_id=1520879833]
+z_index = 4
+material = SubResource("ShaderMaterial_jwpg7")
+position = Vector2(0, 100)
+
+[node name="VennDia" type="Sprite2D" parent="Comparaison" unique_id=625731519]
+modulate = Color(1, 0, 0.42352942, 1)
+position = Vector2(5900, -300)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("33_e08e2")
+
+[node name="VennDia4" type="Sprite2D" parent="Comparaison" unique_id=1662079756]
+modulate = Color(1, 0, 0.42352942, 1)
+position = Vector2(5900, 200)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("33_e08e2")
+
+[node name="VennDia3" type="Sprite2D" parent="Comparaison" unique_id=697077775]
+modulate = Color(0.011764706, 0.8, 1, 1)
+position = Vector2(6100, 200)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("33_e08e2")
+
+[node name="VennDia2" type="Sprite2D" parent="Comparaison" unique_id=779380869]
+modulate = Color(0.011764706, 0.8, 1, 1)
+position = Vector2(6100, -300)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("33_e08e2")
+
+[node name="BoatPeople" type="Sprite2D" parent="Comparaison" unique_id=418530079]
+use_parent_material = true
+position = Vector2(6500, -300)
+scale = Vector2(0.12, 0.12)
+texture = ExtResource("34_r33sp")
+
+[node name="Screenshot20260129151728" type="Sprite2D" parent="Comparaison" unique_id=1704464464]
+material = SubResource("ShaderMaterial_536cc")
+position = Vector2(6520, 200)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("35_hdf80")
+
+[node name="CCQTitle" type="Label" parent="Comparaison" unique_id=91881274]
+z_index = 3
+offset_left = 5078.0
+offset_top = -621.0
+offset_right = 6213.0
+offset_bottom = -508.0
+pivot_offset = Vector2(367, 30)
+text = "Partie FR/CCQ/Histoire - Schéma de concept"
+label_settings = SubResource("LabelSettings_ynf5e")
+
+[node name="HistoireTitle" type="Label" parent="Comparaison" unique_id=1058626270]
+z_index = 3
+offset_left = 7078.0
+offset_top = -621.0
+offset_right = 8213.0
+offset_bottom = -508.0
+pivot_offset = Vector2(367, 30)
+text = "Partie FR/CCQ/Histoire - Schéma de concept"
+label_settings = SubResource("LabelSettings_ynf5e")
+
+[node name="Semblable" type="Label" parent="Comparaison" unique_id=1069358393]
+z_index = 3
+offset_left = 5951.0
+offset_top = -484.0
+offset_right = 6065.0
+offset_bottom = -429.0
+pivot_offset = Vector2(367, 30)
+text = "Pays d'origine
+instable"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Semblable2" type="Label" parent="Comparaison" unique_id=1573311103]
+z_index = 3
+offset_left = 5928.0
+offset_top = -417.0
+offset_right = 6122.0
+offset_bottom = -312.0
+pivot_offset = Vector2(367, 30)
+text = "Mauvaises 
+conditions
+de vie"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Semblable9" type="Label" parent="Comparaison" unique_id=2054583961]
+z_index = 3
+offset_left = 5944.0
+offset_top = 85.0
+offset_right = 6138.0
+offset_bottom = 190.0
+pivot_offset = Vector2(367, 30)
+text = "Mauvaises 
+conditions
+de vie"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Semblable4" type="Label" parent="Comparaison" unique_id=200994468]
+z_index = 3
+offset_left = 5924.0
+offset_top = -436.0
+offset_right = 6118.0
+offset_bottom = -331.0
+pivot_offset = Vector2(367, 30)
+text = "+"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Semblable3" type="Label" parent="Comparaison" unique_id=248875529]
+z_index = 3
+offset_left = 5824.0
+offset_top = -355.0
+offset_right = 6018.0
+offset_bottom = -250.0
+pivot_offset = Vector2(367, 30)
+text = "Aide reçu
+par le
+gouvernement"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Semblable11" type="Label" parent="Comparaison" unique_id=1395249251]
+z_index = 3
+offset_left = 5976.0
+offset_top = -307.0
+offset_right = 6170.0
+offset_bottom = -202.0
+pivot_offset = Vector2(367, 30)
+text = "Classe d'accueil"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Semblable5" type="Label" parent="Comparaison" unique_id=735770633]
+z_index = 3
+offset_left = 5899.0
+offset_top = -235.0
+offset_right = 6097.0
+offset_bottom = -130.0
+pivot_offset = Vector2(367, 30)
+text = "D'origine indochinoise
+(Péninsule indochinoise)"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different2" type="Label" parent="Comparaison" unique_id=1234642176]
+z_index = 3
+offset_left = 5716.0
+offset_top = -458.0
+offset_right = 5867.0
+offset_bottom = -427.0
+pivot_offset = Vector2(367, 30)
+text = "Famille au Québec"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different" type="Label" parent="Comparaison" unique_id=692608647]
+z_index = 3
+offset_left = 5655.0
+offset_top = -228.0
+offset_right = 5886.0
+offset_bottom = -173.0
+pivot_offset = Vector2(367, 30)
+text = "Gratitude envers
+les Canadiens"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different3" type="Label" parent="Comparaison" unique_id=1796651771]
+z_index = 3
+offset_left = 6114.0
+offset_top = 27.0
+offset_right = 6284.0
+offset_bottom = 106.0
+pivot_offset = Vector2(367, 30)
+text = "Ressentiment envers
+Canadiens (au
+début)"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different4" type="Label" parent="Comparaison" unique_id=1166489211]
+z_index = 3
+offset_left = 6150.0
+offset_top = 154.0
+offset_right = 6358.0
+offset_bottom = 233.0
+pivot_offset = Vector2(367, 30)
+text = "Peur face à
+l'immigration
+(au début)"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different5" type="Label" parent="Comparaison" unique_id=116518580]
+z_index = 3
+offset_left = 6117.0
+offset_top = 291.0
+offset_right = 6325.0
+offset_bottom = 346.0
+pivot_offset = Vector2(367, 30)
+text = "Se fait jugé pour sa
+culture espagnole"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different7" type="Label" parent="Comparaison" unique_id=853671650]
+z_index = 3
+offset_left = 5649.0
+offset_top = -364.0
+offset_right = 5868.0
+offset_bottom = -309.0
+pivot_offset = Vector2(367, 30)
+text = "Aucune préparation
+pour le voyage"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Semblable6" type="Label" parent="Comparaison" unique_id=586664626]
+z_index = 3
+offset_left = 5955.0
+offset_top = 16.0
+offset_right = 6069.0
+offset_bottom = 71.0
+pivot_offset = Vector2(367, 30)
+text = "Pays d'origine
+instable"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Semblable7" type="Label" parent="Comparaison" unique_id=311707695]
+z_index = 3
+offset_left = 5928.0
+offset_top = 64.0
+offset_right = 6122.0
+offset_bottom = 169.0
+pivot_offset = Vector2(367, 30)
+text = "+"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Semblable8" type="Label" parent="Comparaison" unique_id=975311994]
+z_index = 3
+offset_left = 5828.0
+offset_top = 145.0
+offset_right = 6022.0
+offset_bottom = 250.0
+pivot_offset = Vector2(367, 30)
+text = "Aide reçu
+par le
+gouvernement"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Semblable10" type="Label" parent="Comparaison" unique_id=444549366]
+z_index = 3
+offset_left = 5970.0
+offset_top = 209.0
+offset_right = 6164.0
+offset_bottom = 314.0
+pivot_offset = Vector2(367, 30)
+text = "Aide reçu par
+connaissances"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different10" type="Label" parent="Comparaison" unique_id=1529853641]
+z_index = 3
+offset_left = 5749.0
+offset_top = 13.0
+offset_right = 5900.0
+offset_bottom = 44.0
+pivot_offset = Vector2(367, 30)
+text = "Famille au Québec"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different11" type="Label" parent="Comparaison" unique_id=181266519]
+z_index = 3
+offset_left = 5645.0
+offset_top = 173.0
+offset_right = 5876.0
+offset_bottom = 228.0
+pivot_offset = Vector2(367, 30)
+text = "Gratitude envers
+les Canadiens"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different12" type="Label" parent="Comparaison" unique_id=1663705540]
+z_index = 3
+offset_left = 5664.0
+offset_top = 283.0
+offset_right = 5883.0
+offset_bottom = 362.0
+pivot_offset = Vector2(367, 30)
+text = "D'origine indochinoise
+(Péninsule
+indochinoise)"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different14" type="Label" parent="Comparaison" unique_id=812793644]
+z_index = 3
+offset_left = 5876.0
+offset_top = 278.0
+offset_right = 6095.0
+offset_bottom = 357.0
+pivot_offset = Vector2(367, 30)
+text = "Très motivées à
+apprendre
+la langue française"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different13" type="Label" parent="Comparaison" unique_id=1358554589]
+z_index = 3
+offset_left = 5654.0
+offset_top = 88.0
+offset_right = 5873.0
+offset_bottom = 143.0
+pivot_offset = Vector2(367, 30)
+text = "Défis : Difficulté à se
+trouver un emploi"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different8" type="Label" parent="Comparaison" unique_id=166952490]
+z_index = 3
+offset_left = 6011.0
+offset_top = -451.0
+offset_right = 6408.0
+offset_bottom = -348.0
+pivot_offset = Vector2(367, 30)
+text = "Plusieurs poursuivent
+ leur carrière
+ universitaire à
+Montréal"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="Different9" type="Label" parent="Comparaison" unique_id=709775070]
+z_index = 3
+offset_left = 6144.0
+offset_top = -285.0
+offset_right = 6363.0
+offset_bottom = -206.0
+pivot_offset = Vector2(367, 30)
+text = "Voyage en bateau
+(avion pour
+ certains)"
+label_settings = SubResource("LabelSettings_r33sp")
+horizontal_alignment = 1
+
+[node name="20221016130536" type="Sprite2D" parent="Comparaison" unique_id=172545769]
+use_parent_material = true
+position = Vector2(5500, -300)
+rotation = 1.5707964
+scale = Vector2(0.09, 0.09)
+texture = ExtResource("36_jwpg7")
+
+[node name="20250619143441" type="Sprite2D" parent="Comparaison" unique_id=643517706]
+use_parent_material = true
+position = Vector2(5470, 200)
+rotation = 1.5707964
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("37_k2e45")
+
+[node name="Histoire" type="Sprite2D" parent="." unique_id=1268027672]
+z_index = 4
+material = SubResource("ShaderMaterial_aqgau")
+position = Vector2(8000, 50)
+scale = Vector2(0.9, 0.9)
+texture = ExtResource("38_k2e45")
+
+[node name="JournalTitle" type="Label" parent="." unique_id=559514397]
+z_index = 3
+offset_left = 9078.0
+offset_top = -521.0
+offset_right = 10213.0
+offset_bottom = -408.0
+pivot_offset = Vector2(367, 30)
+text = "Journal de bord "
+label_settings = SubResource("LabelSettings_ynf5e")
+
+[node name="Cours1" type="Label" parent="." unique_id=1825560347]
+z_index = 3
+offset_left = 9462.0
+offset_top = 365.0
+offset_right = 9569.0
+offset_bottom = 418.0
+pivot_offset = Vector2(367, 30)
+text = "Cours 1"
+label_settings = SubResource("LabelSettings_s8vy0")
+
+[node name="Cours2" type="Label" parent="." unique_id=257554860]
+z_index = 3
+offset_left = 9657.0
+offset_top = 365.0
+offset_right = 9771.0
+offset_bottom = 418.0
+pivot_offset = Vector2(367, 30)
+text = "Cours 2"
+label_settings = SubResource("LabelSettings_s8vy0")
+
+[node name="Cours3" type="Label" parent="." unique_id=1176423583]
+z_index = 3
+offset_left = 9852.0
+offset_top = 365.0
+offset_right = 9965.0
+offset_bottom = 418.0
+pivot_offset = Vector2(367, 30)
+text = "Cours 3"
+label_settings = SubResource("LabelSettings_s8vy0")
+
+[node name="Cours4" type="Label" parent="." unique_id=1025193430]
+z_index = 3
+offset_left = 10047.0
+offset_top = 365.0
+offset_right = 10161.0
+offset_bottom = 418.0
+pivot_offset = Vector2(367, 30)
+text = "Cours 4"
+label_settings = SubResource("LabelSettings_s8vy0")
+
+[node name="Cours5" type="Label" parent="." unique_id=1399489851]
+z_index = 3
+offset_left = 10241.0
+offset_top = 365.0
+offset_right = 10355.0
+offset_bottom = 418.0
+pivot_offset = Vector2(367, 30)
+text = "Cours 5"
+label_settings = SubResource("LabelSettings_s8vy0")
+
+[node name="Cours6" type="Label" parent="." unique_id=1184999679]
+z_index = 3
+offset_left = 10436.0
+offset_top = 365.0
+offset_right = 10551.0
+offset_bottom = 418.0
+pivot_offset = Vector2(367, 30)
+text = "Cours 6"
+label_settings = SubResource("LabelSettings_s8vy0")
+
+[node name="Journal" type="Node2D" parent="." unique_id=1605884483]
+z_index = 4
+material = SubResource("ShaderMaterial_2060n")
+
+[node name="Journal1" type="Node2D" parent="Journal" unique_id=1071684989]
+use_parent_material = true
+
+[node name="Screenshot20260130095445" type="Sprite2D" parent="Journal/Journal1" unique_id=1052253186]
+use_parent_material = true
+position = Vector2(9532.001, -141.00002)
+scale = Vector2(0.325, 0.325)
+texture = ExtResource("40_jut3y")
+
+[node name="Screenshot20260130101043" type="Sprite2D" parent="Journal/Journal1" unique_id=553929304]
+use_parent_material = true
+position = Vector2(10502.001, -36)
+scale = Vector2(0.325, 0.325)
+texture = ExtResource("41_v2nl5")
+
+[node name="Screenshot20260130101931" type="Sprite2D" parent="Journal/Journal1" unique_id=2121927943]
+use_parent_material = true
+position = Vector2(10029, -119)
+texture = ExtResource("42_dmskm")
+
+[node name="Journal2" type="Node2D" parent="Journal" unique_id=1421559028]
+visible = false
+use_parent_material = true
+
+[node name="Screenshot20260130101043" type="Sprite2D" parent="Journal/Journal2" unique_id=1657387071]
+use_parent_material = true
+position = Vector2(10502.001, -36)
+scale = Vector2(0.325, 0.325)
+texture = ExtResource("41_v2nl5")
+
+[node name="Screenshot20260130101931" type="Sprite2D" parent="Journal/Journal2" unique_id=1245659873]
+use_parent_material = true
+position = Vector2(10029, -119)
+texture = ExtResource("42_dmskm")
+
+[node name="Screenshot20260130100343" type="Sprite2D" parent="Journal/Journal2" unique_id=1238908096]
+use_parent_material = true
+position = Vector2(9565, -34)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("43_xdkp6")
+
+[node name="Journal3" type="Node2D" parent="Journal" unique_id=208093467]
+visible = false
+use_parent_material = true
+
+[node name="Screenshot20260130101931" type="Sprite2D" parent="Journal/Journal3" unique_id=594263477]
+use_parent_material = true
+position = Vector2(10029, -119)
+texture = ExtResource("42_dmskm")
+
+[node name="Screenshot20260130100343" type="Sprite2D" parent="Journal/Journal3" unique_id=221999570]
+use_parent_material = true
+position = Vector2(9565, -34)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("43_xdkp6")
+
+[node name="Screenshot20260130101052" type="Sprite2D" parent="Journal/Journal3" unique_id=1308375022]
+use_parent_material = true
+position = Vector2(10496, -20.999992)
+scale = Vector2(0.365, 0.365)
+texture = ExtResource("44_54nrm")
+
+[node name="Journal4" type="Node2D" parent="Journal" unique_id=450922935]
+visible = false
+use_parent_material = true
+
+[node name="Screenshot20260130100343" type="Sprite2D" parent="Journal/Journal4" unique_id=1916513729]
+use_parent_material = true
+position = Vector2(9565, -34)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("43_xdkp6")
+
+[node name="Screenshot20260130101052" type="Sprite2D" parent="Journal/Journal4" unique_id=1375236916]
+use_parent_material = true
+position = Vector2(10496, -20.999992)
+scale = Vector2(0.365, 0.365)
+texture = ExtResource("44_54nrm")
+
+[node name="Screenshot20260130101242" type="Sprite2D" parent="Journal/Journal4" unique_id=481569543]
+use_parent_material = true
+position = Vector2(10017, -48)
+scale = Vector2(0.815, 0.815)
+texture = ExtResource("45_55jeb")
+
+[node name="Journal5" type="Node2D" parent="Journal" unique_id=774944303]
+visible = false
+use_parent_material = true
+
+[node name="Screenshot20260130100343" type="Sprite2D" parent="Journal/Journal5" unique_id=1933696417]
+use_parent_material = true
+position = Vector2(9565, -34)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("43_xdkp6")
+
+[node name="Screenshot20260130101052" type="Sprite2D" parent="Journal/Journal5" unique_id=259901995]
+use_parent_material = true
+position = Vector2(10496, -20.999992)
+scale = Vector2(0.365, 0.365)
+texture = ExtResource("44_54nrm")
+
+[node name="Screenshot20260130101253" type="Sprite2D" parent="Journal/Journal5" unique_id=70652536]
+use_parent_material = true
+position = Vector2(10008, -87)
+scale = Vector2(0.57, 0.57)
+texture = ExtResource("46_gsvbx")
+
+[node name="Journal6" type="Node2D" parent="Journal" unique_id=1392756393]
+visible = false
+use_parent_material = true
+
+[node name="Screenshot20260130101052" type="Sprite2D" parent="Journal/Journal6" unique_id=197509585]
+use_parent_material = true
+position = Vector2(10496, -20.999992)
+scale = Vector2(0.365, 0.365)
+texture = ExtResource("44_54nrm")
+
+[node name="Screenshot20260130101253" type="Sprite2D" parent="Journal/Journal6" unique_id=843282205]
+use_parent_material = true
+position = Vector2(10008, -87)
+scale = Vector2(0.57, 0.57)
+texture = ExtResource("46_gsvbx")
+
+[node name="Screenshot20260130100957" type="Sprite2D" parent="Journal/Journal6" unique_id=1612375429]
+use_parent_material = true
+position = Vector2(9644.001, -86.99994)
+scale = Vector2(0.445, 0.445)
+texture = ExtResource("47_bv80c")
+
+[connection signal="value_changed" from="HSlider1" to="HSlider1" method="_on_value_changed"]
+[connection signal="value_changed" from="HSlider2" to="HSlider2" method="_on_value_changed"]
+[connection signal="value_changed" from="HSlider3" to="HSlider3" method="_on_value_changed"]
+[connection signal="mouse_entered" from="DossierDocArrow1/Control" to="DossierDocArrow1" method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="DossierDocArrow1/Control" to="DossierDocArrow1" method="_on_control_mouse_exited"]
+[connection signal="mouse_entered" from="DossierDocArrow2_right/Control" to="DossierDocArrow2_right" method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="DossierDocArrow2_right/Control" to="DossierDocArrow2_right" method="_on_control_mouse_exited"]
+[connection signal="mouse_entered" from="DossierDocArrow2_left/Control" to="DossierDocArrow2_left" method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="DossierDocArrow2_left/Control" to="DossierDocArrow2_left" method="_on_control_mouse_exited"]
+[connection signal="mouse_entered" from="DossierDocArrow3_right/Control" to="DossierDocArrow3_right" method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="DossierDocArrow3_right/Control" to="DossierDocArrow3_right" method="_on_control_mouse_exited"]
+[connection signal="mouse_entered" from="DossierDocArrow3_left/Control" to="DossierDocArrow3_left" method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="DossierDocArrow3_left/Control" to="DossierDocArrow3_left" method="_on_control_mouse_exited"]
+[connection signal="mouse_entered" from="DossierDocArrow4_right/Control" to="DossierDocArrow4_right" method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="DossierDocArrow4_right/Control" to="DossierDocArrow4_right" method="_on_control_mouse_exited"]
+[connection signal="mouse_entered" from="DossierDocArrow4_left/Control" to="DossierDocArrow4_left" method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="DossierDocArrow4_left/Control" to="DossierDocArrow4_left" method="_on_control_mouse_exited"]
+[connection signal="mouse_entered" from="DossierDocArrow5_right/Control" to="DossierDocArrow5_right" method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="DossierDocArrow5_right/Control" to="DossierDocArrow5_right" method="_on_control_mouse_exited"]
+[connection signal="mouse_entered" from="DossierDocArrow5_left/Control" to="DossierDocArrow5_left" method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="DossierDocArrow5_left/Control" to="DossierDocArrow5_left" method="_on_control_mouse_exited"]
+[connection signal="mouse_entered" from="DossierDocArrow5_left2/Control" to="DossierDocArrow5_left2" method="_on_control_mouse_entered"]
+[connection signal="mouse_exited" from="DossierDocArrow5_left2/Control" to="DossierDocArrow5_left2" method="_on_control_mouse_exited"]
