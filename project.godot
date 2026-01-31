@@ -13,6 +13,7 @@ config_version=5
 config/name="Dossier Documentaire"
 run/main_scene="uid://bocjd788dxirj"
 config/features=PackedStringArray("4.6", "GL Compatibility")
+boot_splash/image="uid://dr1jcatekj784"
 config/icon="res://icon.svg"
 
 [display]
