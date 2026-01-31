@@ -54,7 +54,7 @@ glow_enabled = true
 glow_intensity = 0.5
 glow_bloom = 1.0
 adjustment_enabled = true
-adjustment_brightness = 0.77
+adjustment_brightness = 0.87
 adjustment_contrast = 1.5
 
 [sub_resource type="Gradient" id="Gradient_6bp64"]
@@ -1345,11 +1345,12 @@ texture = ExtResource("11_d1ilt")
 
 [node name="Titre3" type="Label" parent="FR/FR2" unique_id=10714]
 z_index = 4
-offset_left = -899.65393
-offset_top = -170.70357
-offset_right = -485.65393
-offset_bottom = -27.703568
+offset_left = -810.0
+offset_top = -170.704
+offset_right = -396.0
+offset_bottom = -27.703995
 rotation = -1.0576695
+scale = Vector2(0.9, 0.9)
 pivot_offset = Vector2(367, 30)
 text = "SECTION 2"
 label_settings = SubResource("LabelSettings_wsu2k")
@@ -1456,11 +1457,12 @@ texture = ExtResource("14_jkdf5")
 
 [node name="Titre3" type="Label" parent="FR/FR6" unique_id=40397403]
 z_index = 4
-offset_left = -889.27325
-offset_top = -206.45905
-offset_right = -475.27325
-offset_bottom = -63.459045
+offset_left = -810.0
+offset_top = -206.459
+offset_right = -396.0
+offset_bottom = -63.459
 rotation = -1.0576695
+scale = Vector2(0.9, 0.9)
 pivot_offset = Vector2(367, 30)
 text = "SECTION 6"
 label_settings = SubResource("LabelSettings_wsu2k")
@@ -2127,7 +2129,7 @@ material = SubResource("ShaderMaterial_2060n")
 
 [node name="Journal1" type="Node2D" parent="Journal" unique_id=1071684989]
 use_parent_material = true
-position = Vector2(2400, 0)
+position = Vector2(2350, 0)
 scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130095445" type="Sprite2D" parent="Journal/Journal1" unique_id=1052253186]
@@ -2167,7 +2169,7 @@ label_settings = SubResource("LabelSettings_v2nl5")
 [node name="Journal2" type="Node2D" parent="Journal" unique_id=1421559028]
 visible = false
 use_parent_material = true
-position = Vector2(2400, 0)
+position = Vector2(2350, 0)
 scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130101043" type="Sprite2D" parent="Journal/Journal2" unique_id=1657387071]
@@ -2207,7 +2209,7 @@ label_settings = SubResource("LabelSettings_v2nl5")
 [node name="Journal3" type="Node2D" parent="Journal" unique_id=208093467]
 visible = false
 use_parent_material = true
-position = Vector2(2400, 0)
+position = Vector2(2350, 0)
 scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130101931" type="Sprite2D" parent="Journal/Journal3" unique_id=594263477]
@@ -2246,7 +2248,7 @@ label_settings = SubResource("LabelSettings_v2nl5")
 [node name="Journal4" type="Node2D" parent="Journal" unique_id=450922935]
 visible = false
 use_parent_material = true
-position = Vector2(2400, 0)
+position = Vector2(2350, 0)
 scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130100343" type="Sprite2D" parent="Journal/Journal4" unique_id=1916513729]
@@ -2285,7 +2287,7 @@ label_settings = SubResource("LabelSettings_v2nl5")
 [node name="Journal5" type="Node2D" parent="Journal" unique_id=774944303]
 visible = false
 use_parent_material = true
-position = Vector2(2400, 0)
+position = Vector2(2350, 0)
 scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130100343" type="Sprite2D" parent="Journal/Journal5" unique_id=1933696417]
@@ -2324,7 +2326,7 @@ label_settings = SubResource("LabelSettings_v2nl5")
 [node name="Journal6" type="Node2D" parent="Journal" unique_id=1392756393]
 visible = false
 use_parent_material = true
-position = Vector2(2400, 0)
+position = Vector2(2350, 0)
 scale = Vector2(0.8, 0.8)
 
 [node name="Screenshot20260130101052" type="Sprite2D" parent="Journal/Journal6" unique_id=197509585]
